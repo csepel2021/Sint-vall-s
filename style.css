@@ -1,0 +1,307 @@
+/* Default styles for the browser */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    font-family: 'Poppins';
+    background-color: #F55536;
+}
+
+header .inner{
+    width: 1300px; /* This is the inner width of the content inside of your header (80%, etc) */
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+header .logo{
+    display: table;
+    height: 100%;
+    float: left;
+}
+
+header .logo div{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .logo img{
+    height: 50px;
+    margin-top: 5px; /* Optical alignment of the logo */
+}
+
+header nav{
+    float: right;
+    height: 100%;
+}
+
+header nav li{
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+header nav li:last-of-type{
+    margin-right: 0;
+}
+
+header nav span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header nav a{
+    color: #101010;
+}
+
+header nav .button{
+    background-color: #1ab26b; /* This HEX is the color of the button */
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+header nav .button:hover{
+    filter: brightness(1.05);
+}
+
+/*https://www.youtube.com/watch?v=GxwHXxumdQk*/
+
+
+
+body {
+    background-color: #F2D0A9;
+    color: #F2D0A9;
+}
+
+.doboz {
+    /* background-color: #8E7DBE; */
+    background-color: #483a6c;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 15px 5px purple; */
+    box-shadow: 0px 0px 15px 5px rgb(71, 0, 71);
+    display: block;
+    margin: 30px auto;
+    text-align: left;
+    padding: 10px;
+    width: 60%;
+}
+
+#h1cím {
+    font-size: 200%;
+    background-color:#483a6c;
+    color:#F2D0A9;
+    padding-block: 10px;
+    
+}
+
+
+.kep-kozep {
+    width: 700px;
+    height: 450px;
+    display: block;
+    margin: auto;
+}
+
+#msz {
+    text-align:center;
+    border-radius: 10px;
+    background-color: #D88C9A;
+}
+
+#izanagi {
+    /*float:left;*/
+    min-height: 300px;
+}
+
+
+
+#kep-jobb {
+    display: block;
+    float: right;
+    max-height: 200px;
+    width: auto;
+}
+
+#kep-jobb2 {
+    display: block;
+    float: right;
+    max-height: 370px;
+    width: auto;
+    margin-left: 5px;
+}
+
+#kep-jobb2-div {
+    height: 400px;
+}
+#szentely {
+    width: 1100px;
+    height: 500px;
+}
+
+#kep-jobb3 {
+    max-height: 370px;
+}
+
+#kep-jobb4 {
+    float: right;
+    max-height: 370px;
+}
+
+#kendo {
+    text-align: center;
+}
+
+#kep-jobb5 {
+    text-align: center;
+    display: block;
+    float: unset;
+    max-height: 430px;
+    width: auto;
+    width: 1100px;
+    height: 400px
+}
+
+#kep-jobb6 {
+    display: block;
+    float: unset;
+    max-height: 430px;
+    width: auto;
+    width: 1100px;
+    height: 400px
+}
+
+#kep-jobb7 {
+    display: block;
+    float: unset;
+    max-height: 430px;
+    width: auto;
+    width: 1100px;
+    height: 270px
+}
+
+#sarkanyisten {
+    text-align:center
+}
+
+#kep-jobb8 {
+    text-align: center;
+    
+    float: unset;
+    max-height: 430px;
+    width: auto;
+    width: 800px;
+    height: 400px
+}
+
+#kep-jobb9 {
+    display: block;
+    float: unset;
+    max-height: 430px;
+    width: auto;
+    width: 350px;
+    height: 200px
+}
+
+#hanako {
+    text-align: center
+}
+
+#kep-jobb10 {
+    max-height: 430px;
+    width: 200px;
+    height: 200px;
+    margin-block: 10px;
+    margin-inline: 20px;
+}
+
+#kep-jobb11 {
+    max-height: 430px;
+    width: 200px;
+    height: 200px;
+    margin-block: 10px;
+    margin-inline: 20px;
+}
+
+#teke {
+    max-height: 430px;
+    
+    width: 200px;
+    height: 200px
+}
+
+#teke2 {
+    max-height: 430px;
+    float: right;
+    width: 200px;
+    height: 200px
+    
+}
+
+#kitsuni {
+    max-height: 430px;
+    
+    width: 200px;
+    height: 200px
+}
+
+#kitsuni2 {
+    max-height: 430px;
+    float: right;
+    width: 200px;
+    height: 200px
+
+}
+
+#kappa {
+    max-height: 430px;
+    
+    width: 200px;
+    height: 200px
+}
+
+#kappa2 {
+    max-height: 430px;
+    float: right;
+    width: 200px;
+    height: 200px
+
+}
+
+#tanuki {
+    max-height: 430px;
+    
+    width: 200px;
+    height: 200px
+}
+
+#tanuki2 {
+    max-height: 430px;
+    float: right;
+    width: 200px;
+    height: 200px
+
+}
+
+#fejléc {
+    background-color: red;
+    width: 1350px;
+    height: 100px;
+}
+
+#h1 {
+    text-align: center;
+    bacground-color: black;
+    color: black;
+    
+}
+
